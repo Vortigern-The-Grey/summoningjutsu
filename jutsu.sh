@@ -10,7 +10,7 @@ sudo dnf update -y && sudo dnf upgrade -y
 sudo dnf install swaync && pipewire && wireplumber && qt5-wayland && qt6-wayland -y
 
 # Hyprland things
-sudo dnf install hyprland && hyprlock && hyprpaper && kitty && waybar && wofi -y
+sudo dnf install hyprland && hyprlock && hyprpaper && hyprshot && kitty && waybar && wofi -y
 
 # nvim things
 sudo dnf copr enable dejan/lazygit
